@@ -1,3 +1,3 @@
-module github.com/dengsgo/math-engine
+module github.com/yuanshuli11/math-engine
 
 go 1.14
