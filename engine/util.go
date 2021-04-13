@@ -136,6 +136,11 @@ func ExprASTResult(expr ExprAST) float64 {
 			return float64(int(l) % int(r))
 		case "^":
 			return Pow(l, int(r))
+		case "=":
+			if int(l) == int(r) {
+				return float64(1)
+			}
+			return float64(0)
 		default:
 
 		}
